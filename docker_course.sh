@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # Function to speak the input
-#speak() {
-    #echo "$1" | say
-#}
+speak() {
+    echo "$1" | say
+}
 
 # Prompt user for input
 read -p "Please enter your name: " message
 
 # Speak the input
-#speak "$message"
+speak "$message"
 
 # Prompt user for yes or no input
 read -p "Do you want to join the Docker course? (yes/no): " response
