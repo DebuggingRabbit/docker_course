@@ -9,7 +9,7 @@ speak() {
 read -p "Please enter your name: " message
 
 # Speak the input
-speak "$message"
+speak "Welcome" && "$message"
 
 # Prompt user for yes or no input
 read -p "Do you want to join the Docker course? (yes/no): " response
