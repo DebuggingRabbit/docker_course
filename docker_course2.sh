@@ -11,7 +11,7 @@ speak "Please enter your first name" & read -p "Please enter your first name: " 
 speak "Hi $message, how are you feeling today?"
 
 # Prompt user for yes or no input
-speak "Do you want to join the Docker course. kindly reply with a yes or a no" & read -p "Do you want to join the Docker course? (yes/no): " response
+speak "Do you want to join the Docker course?. kindly reply with a yes or a no" & read -p "Do you want to join the Docker course? (yes/no): " response
 # Speak the input
 
 
