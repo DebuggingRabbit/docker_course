@@ -6,13 +6,12 @@ speak() {
 }
 
 # Prompt user for input
-read -p "Please enter a message: " message
+read -p "Please enter your first name: " message
 # Speak the input
-speak "Hi $message"
+speak "Hi $message, how are you feeling today"
 
 # Prompt user for yes or no input
-speak "Do you want to join the Docker course?"
-read -p "Do you want to join the Docker course? (yes/no): " response
+speak "Do you want to join the Docker course?" & read -p "Do you want to join the Docker course? (yes/no): " response
 # Speak the input
 
 
