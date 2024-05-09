@@ -8,10 +8,10 @@ speak() {
 # Prompt user for input
 read -p "Please enter your first name: " message
 # Speak the input
-speak "Hi $message, how are you feeling today"
+speak "Hi $message, how are you feeling today?"
 
 # Prompt user for yes or no input
-speak "Do you want to join the Docker course? kindly reply with a yes or a no" & read -p "Do you want to join the Docker course? (yes/no): " response
+speak "Do you want to join the Docker course. kindly reply with a yes or a no" & read -p "Do you want to join the Docker course? (yes/no): " response
 # Speak the input
 
 
@@ -21,6 +21,6 @@ if [ "$response" = "yes" ]; then
 elif [ "$response" = "no" ]; then
     speak "Disappointed to see you leave. $message"
 else
-    speak "$message dey hear word now haba. Please enter 'yes' or 'no'."
+    speak "Invalid input $message. Please enter 'yes' or 'no'."
 fi
 
