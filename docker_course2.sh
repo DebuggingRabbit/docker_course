@@ -11,9 +11,10 @@ read -p "Please enter a message: " message
 speak "Hi $message"
 
 # Prompt user for yes or no input
+speak "Do you want to join the Docker course?"
 read -p "Do you want to join the Docker course? (yes/no): " response
 # Speak the input
-speak "Do you want to join the Docker course?"
+
 
 # Check user's response
 if [ "$response" = "yes" ]; then
