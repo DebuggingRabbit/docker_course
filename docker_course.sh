@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Function to speak the input
-speak() {
-    echo "$1" | say
-}
+#speak() {
+    #echo "$1" | say
+#}
 
 # Prompt user for input
 read -p "Please enter your name: " message
