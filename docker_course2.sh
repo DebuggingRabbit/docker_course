@@ -17,7 +17,9 @@ speak "Do you want to join the Docker course?. kindly reply with a yes or a no" 
 
 # Check user's response
 if [ "$response" = "yes" ]; then
-    speak "Welcome to the Docker course! by Debugging Rabbit"
+    echo "Welcome to the Docker course, 😊"
+    speak "Welcome to the Docker course, 😊 by Debugging Rabbit"
+    #speak "Welcome to the Docker course! by Debugging Rabbit"
 elif [ "$response" = "no" ]; then
     speak "Disappointed to see you leave. $message"
 else
