@@ -6,7 +6,7 @@ speak() {
 }
 
 # Prompt user for input
-read -p "Please enter your first name: " message
+speak "Please enter your first name" & read -p "Please enter your first name: " message
 # Speak the input
 speak "Hi $message, how are you feeling today?"
 
